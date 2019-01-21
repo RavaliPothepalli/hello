@@ -1,0 +1,13 @@
+<project name="banking" default="loans">
+
+<target name="savings">
+<echo message="welcome to savings section"/>
+</target>
+
+<target name="loans" depends="savings">
+<echo message="welcome to loans"/>
+</target>
+
+<echo message="welcome to bank"/>
+
+</project>
